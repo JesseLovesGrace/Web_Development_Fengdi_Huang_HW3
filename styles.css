@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ccc;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.fizzbuzz-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fizzbuzz-container div {
+    flex: 1 1 calc(10% - 10px);
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fizzbuzz {
+    background-color: hsl(0, 70%, 55%);
+}
+
+.fizz {
+    background-color: hsl(73, 65%, 52%);
+}
+
+.buzz {
+    background-color: hsl(254, 42%, 50%);
+}
+
+.normal {
+    background-color: hsl(142, 78%, 44%);
+}

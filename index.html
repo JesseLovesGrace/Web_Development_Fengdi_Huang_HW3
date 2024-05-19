@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz Generator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <div class="form-row">
+                <div class="col">
+                    <label for="startValue">Starting Value</label>
+                    <input type="number" class="form-control" id="startValue" value="1">
+                </div>
+                <div class="col">
+                    <label for="endValue">Ending Value</label>
+                    <input type="number" class="form-control" id="endValue" value="100">
+                </div>
+                <div class="col">
+                    <label for="fizzValue">Fizz Value</label>
+                    <input type="number" class="form-control" id="fizzValue" value="3">
+                </div>
+                <div class="col">
+                    <label for="buzzValue">Buzz Value</label>
+                    <input type="number" class="form-control" id="buzzValue" value="5">
+                </div>
+            </div>
+            <div class="form-row mt-3">
+                <div class="col">
+                    <button class="btn btn-primary btn-block" id="generateBtn">Generate Divs</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-danger btn-block" id="clearBtn">Clear All</button>
+                </div>
+            </div>
+        </div>
+        <main class="fizzbuzz-container" id="fizzbuzzContainer">
+            <!-- Div elements will be generated here -->
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
